@@ -449,7 +449,7 @@ export default function Landing() {
               <div className="flex items-center gap-1 mb-4 text-indigo-500">
                 <span>&#9733;</span><span>&#9733;</span><span>&#9733;</span><span>&#9733;</span><span>&#9733;</span>
               </div>
-              <p className="text-sm text-gray-600 leading-relaxed mb-4">&quot;Went from a 48 to a 79 resume score after following the skill roadmap. Got 3 screening calls in a week.&quot;</p>
+              <p className="text-sm text-gray-600 leading-relaxed mb-4">&quot;Went from a 48 to a 79 resume score after adding the skill roadmap skills. This proves that if I learn those skill I can be sucessfull!&quot;</p>
               <div>
                 <p className="text-sm font-bold">Sarah K.</p>
                 <p className="text-xs text-gray-400">CS Student, UVA</p>
@@ -469,7 +469,7 @@ export default function Landing() {
               <div className="flex items-center gap-1 mb-4 text-indigo-500">
                 <span>&#9733;</span><span>&#9733;</span><span>&#9733;</span><span>&#9733;</span><span>&#9733;</span>
               </div>
-              <p className="text-sm text-gray-600 leading-relaxed mb-4">&quot;I&apos;m switching from healthcare to tech. The industry benchmark showed me exactly what skills I was missing.&quot;</p>
+              <p className="text-sm text-gray-600 leading-relaxed mb-4">&quot;I&apos;m switching from healthcare to tech and I am here for my first hackathon! The industry benchmark showed me exactly what skills I was missing.&quot;</p>
               <div>
                 <p className="text-sm font-bold">Priya M.</p>
                 <p className="text-xs text-gray-400">Career Switcher</p>
