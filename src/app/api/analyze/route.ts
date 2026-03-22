@@ -23,8 +23,8 @@ export async function POST(req: Request) {
                   text: `Analyze this resume and return ONLY valid JSON (no markdown, no code fences) with these exact keys:
 {
   "resume_score": 72,
-  "soc_code": "15-1252",
-  "soc_title": "Software Developers",
+  "soc_code": "<6-digit SOC code matching their ACTUAL current/target role>",
+  "soc_title": "<official BLS title for that SOC code>",
   "salary_estimate": "estimated salary range",
   "experience_level": "junior/mid/senior/lead",
   "top_skills": ["skill1", "skill2", "skill3", "skill4", "skill5"],
@@ -41,7 +41,7 @@ export async function POST(req: Request) {
 }
 
 resume_score: Rate the resume 0-100 based on clarity, impact, formatting, skill relevance, and experience depth. Be honest and realistic.
-soc_code: The closest Standard Occupational Classification (SOC) code for this person's role (e.g. "15-1252" for Software Developers, "13-2011" for Accountants). Use the 6-digit format with dash.
+soc_code: The closest Standard Occupational Classification (SOC) code based on the person's ACTUAL work experience and job title — NOT their major or interests. For example, a food server = "35-3031", an accountant = "13-2011", a software developer = "15-1252". Base this on what they currently DO, not what they study. Use the 6-digit format with dash.
 soc_title: The official BLS occupation title for that SOC code.
 
 Resume:
